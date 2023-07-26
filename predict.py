@@ -44,17 +44,3 @@ class Prediction:
                 st.markdown(f"""
                 #### The Estimated Load is: <span style = "color: green"> {res_random_forest} </span>
                 """, unsafe_allow_html=True)
-        
-
-
-        fcol1, fcol2, fcol3, fcol4, fcol5 = st.columns(5)
-        with fcol1:
-            st.markdown("""
-Project Members:   
-- [Dr. Venkataramana Veeramsetty](https://www.linkedin.com/in/dr-venkataramana-veeramsetty-7a42871a4/)    
-- [Modem Sai Pavan Kumar](https://www.linkedin.com/in/modem-sai-pavan-kumar-36a036223)   
-- [Gudelli sushma vaishnavi](https://www.linkedin.com/in/sushma-vaishnavi-gudelli-390b60211)   
-- [Potharaboina Prasanna](https://www.linkedin.com/mwlite/in/prasanna-potharaboina-a49853193)  
-- [Nagula Sumanth](https://www.linkedin.com/in/sumanth-nagula-8a94a5104)   
-- [Prabhu Kiran Konda](https://www.linkedin.com/in/prabhu-kiran-konda-b14619208/)
-""")
